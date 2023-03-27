@@ -7,6 +7,7 @@ export default {
 </script>
 
 <template>
+
     <section class="background_color">
         <div class="container">
             <div class="row py-5">
@@ -21,17 +22,17 @@ export default {
                 </div>
             </div>
         </div>
-        <div class="container-fluid container_cards">
-            <div class="row">
-                <div class="col-8 top_background_cards">
-                    <h1>Found TOT Cards</h1>
+        <div class="container-fluid ">
+            <div class="row d-flex justify-content-center">
+                <div class="col-10 py-5  container_cards">
+
+                    <div class="col-12  top_background_cards">
+                        <h1 class="color_white"> Found TOT CARDs</h1>
+                    </div>
                 </div>
-
-
-
             </div>
         </div>
-
+       <!--   -->
 
 
 
@@ -46,12 +47,15 @@ export default {
     background-color: #d48f38;
     height: calc(100vh - 6.25rem);
 }
+.color_white{
+    color: white;
+}
 .container_cards{
     background-color: white;
-    height: 100vh;
+    padding: 0 50px;
+    
 }
 .top_background_cards{
-    background-color: black;
-    width: 100%;
+    background-color: #212529;
 }
 </style>
