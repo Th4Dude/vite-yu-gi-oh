@@ -21,7 +21,16 @@ export default {
                 </div>
             </div>
         </div>
+        <div class="container-fluid container_cards">
+            <div class="row">
+                <div class="col-8 top_background_cards">
+                    <h1>Found TOT Cards</h1>
+                </div>
 
+
+
+            </div>
+        </div>
 
 
 
@@ -36,5 +45,13 @@ export default {
 .background_color {
     background-color: #d48f38;
     height: calc(100vh - 6.25rem);
+}
+.container_cards{
+    background-color: white;
+    height: 100vh;
+}
+.top_background_cards{
+    background-color: black;
+    width: 100%;
 }
 </style>
