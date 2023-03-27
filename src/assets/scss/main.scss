@@ -1,5 +1,8 @@
 @use '_partial/reset' as *;
 @use '_partial/variables' as *;
+// Import all of Bootstrap's CSS
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
 
 body {
     background-color: white;
