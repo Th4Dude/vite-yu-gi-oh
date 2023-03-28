@@ -1,12 +1,14 @@
 <script>
 import mainList from './mainList.vue';
 import mainFound from './mainFound.vue';
+import search from './search.vue';
 
 export default {
     name: 'Main',
     components: {
         mainList,
         mainFound,
+        search,
     }
 }
 
@@ -17,24 +19,17 @@ export default {
         <div class="container ">
             <div class="row py-5">
                 <div class="col-2 ">
-                    <div><select class="form-select" aria-label="Default select example">
-                            <option selected>Choose one</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-                    </div>
+                   <search></search>
                 </div>
             </div>
         </div>
         <div class="container-fluid ">
-            <div class="row d-flex justify-content-center">
+            <div class="row g-0 d-flex justify-content-center">
                 <div class="col-8 py-5   container_cards">
                     <div class="col top_background_cards">
-                        <h1 class="color_white"> Found TOT CARDs</h1>
+                    <mainFound></mainFound>
                     </div>
                     <mainList></mainList>
-                    <mainFound></mainFound>
                 </div>
             </div>
         </div>
