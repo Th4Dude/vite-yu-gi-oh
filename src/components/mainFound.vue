@@ -1,4 +1,5 @@
 <script>
+
 import { store } from '../store';
 export default {
     name: 'MainFound',
@@ -8,12 +9,15 @@ export default {
         }
     }
 }
+
 </script>
 
 <template>
+
     <div class="text-center">
         <h1 class="color_white">  You Found{{ store.cardsFound }} Cards</h1>
     </div>
+    
 </template>
 
 <style lang="scss" scoped>

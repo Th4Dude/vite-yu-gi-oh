@@ -16,6 +16,7 @@ export default {
 </script>
 
 <template>
+
     <div class="container">
         <div class="row">
             <div v-for="(card, index) in store.cards.slice(0,50)" class="col-3">
@@ -23,6 +24,7 @@ export default {
             </div>
         </div>
     </div>
+    
 </template>
 
 <style lang="scss" scoped>

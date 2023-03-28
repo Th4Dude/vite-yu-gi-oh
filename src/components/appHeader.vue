@@ -7,6 +7,7 @@ export default {
 </script>
 
 <template>
+
     <div class="container-fluid">
         <div class="row">
             <div class="  header_box col d-flex justify-content-start align-items-center">
@@ -19,10 +20,12 @@ export default {
             </div>
         </div>
     </div>
+
 </template>
 
 
 <style lang="scss">
+
     .header_box{
         height: 100px;
         
@@ -35,6 +38,4 @@ export default {
     }  
     }
     
-
-
 </style>

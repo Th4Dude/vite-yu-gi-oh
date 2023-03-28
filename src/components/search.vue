@@ -1,4 +1,5 @@
 <script>
+
     export default {
         name : 'searchBar',
     }
@@ -15,7 +16,7 @@
             <option value="3">Three</option>
         </select>
     </div>
-    
+
 </template>
 
 

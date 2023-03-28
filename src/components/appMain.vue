@@ -1,8 +1,8 @@
 <script>
+
 import mainList from './mainList.vue';
 import mainFound from './mainFound.vue';
 import search from './search.vue';
-
 export default {
     name: 'Main',
     components: {
@@ -15,6 +15,7 @@ export default {
 </script>
 
 <template>
+
     <section class="background_color">
         <div class="container ">
             <div class="row py-5">
@@ -34,10 +35,12 @@ export default {
             </div>
         </div>
     </section>
+
 </template>
 
 
 <style lang="scss">
+
 .background_color {
     background-color: #78d2e2;
 }
@@ -53,4 +56,5 @@ export default {
 .top_background_cards {
     background-color: #212529;
 }
+
 </style>
