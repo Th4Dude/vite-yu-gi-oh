@@ -9,6 +9,7 @@ export default {
   components: {
     appHeaderVue,
     appMainVue,
+
   },
   data(){
     return {
@@ -20,7 +21,7 @@ export default {
       .then((response) => {
         console.log(response.data.data);
         this.store.cards = response.data.data;
-        this.store.cardFound = response.data.data.length;
+        this.store.cardsFound = response.data.data.length;
       })
   }
 }
