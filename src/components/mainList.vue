@@ -20,7 +20,7 @@ export default {
     <div class="container">
         <div class="row">
             <div v-for="(card, index) in store.cards.slice(0,50)" class="col-3">
-                <card :img="card.card_images[0].image_url" :name="card.name" :type="card.type" />
+                <card :img="card.card_images[0].image_url" :name="card.name" :type="card.archetype" />
             </div>
         </div>
     </div>
